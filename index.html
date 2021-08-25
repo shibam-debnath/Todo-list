@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html class="all" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+    </style>
+    
+    <title>Todo List</title>
+</head>
+
+<body>
+
+    <div class="container" id="heading">
+        <h1> What's up ,  <span> Shibam</span> </h1>
+    </div>
+
+    <div class="input-div">
+        <input type="text" id="myInput" class="input-text" placeholder="Add your tasks">
+        <span onclick="newElement()" class="add">Add</span>
+    </div>
+
+    <ul id="myUL">
+        <li>Meditation</li>
+        <li>Check mails</li>
+        <li>Daily team meeting</li>
+        <li>Learn react</li>
+        <li>Go to market</li>
+        <li>Watch money heist</li>
+    </ul>
+ 
+    <script src="app.js"></script>
+
+</body>
+
+</html>
